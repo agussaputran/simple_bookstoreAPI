@@ -24,6 +24,8 @@ app.use(addCategories);
 app.use(getCategories);
 app.use(addAuhtors);
 app.use(getAuthors);
+app.use(addBooks);
+app.use(getBooks);
 
 const port = 3000;
 app.listen(port, () => {

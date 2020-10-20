@@ -18,8 +18,10 @@ app.use(bodyParser.json());
 app.use(rootRoute);
 app.use(addStores);
 app.use(getStores);
+app.use(addPublishers);
+app.use(getPublishers);
 
-const port = 4000;
+const port = 3000;
 app.listen(port, () => {
   console.log(`Backend app is running in http://localhost:${port}`);
 });

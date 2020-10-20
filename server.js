@@ -22,6 +22,8 @@ app.use(addPublishers);
 app.use(getPublishers);
 app.use(addCategories);
 app.use(getCategories);
+app.use(addAuhtors);
+app.use(getAuthors);
 
 const port = 3000;
 app.listen(port, () => {

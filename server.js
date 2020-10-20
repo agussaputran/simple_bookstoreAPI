@@ -20,6 +20,8 @@ app.use(addStores);
 app.use(getStores);
 app.use(addPublishers);
 app.use(getPublishers);
+app.use(addCategories);
+app.use(getCategories);
 
 const port = 3000;
 app.listen(port, () => {
